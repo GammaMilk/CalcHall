@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "calchall"
+version = "0.2.0"
+description = "A backend project for github.com/GammaMilk/CalcCalc"
+authors = ["Merky <gaomengkai0@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.85.1"
+websockets = "^10.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
